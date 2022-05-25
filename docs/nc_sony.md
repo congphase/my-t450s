@@ -3,7 +3,7 @@
 > _Nói không hay hơn làm_  
 > _"_
 
-![](./ikigai_robber.png)
+<img src='./ikigai_robber.png' width='242'>
 
 Feeling so related and engaged in the spirit of some of Robber's songs, of which _IKIGAI_ is one, I had to purchase right away a Sony headphone with noise canceling to chill in it.
 
