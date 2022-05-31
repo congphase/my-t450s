@@ -10,4 +10,5 @@ Feeling so related and engaged in the spirit of some of Robber's songs, of which
 Breaking my neck along these songs together with typically a can of energy drink per day has brought me a non-stop motivation to focus on my goals. As an engineering curiosity, a question about how Bluetooth has helped the audio coming from PC or phone to this headphone resulted in me creating this markdown, recording the fun things as I research along this question.
 
 # To-dos
-- [ ] Learn how a digital song is played and heard by a human ear
+- [x] Learn how a digital song is played and heard by a human ear
+    - This is the best [resource](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Audio_concepts)
