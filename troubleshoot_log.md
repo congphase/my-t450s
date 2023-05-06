@@ -35,3 +35,14 @@ Mar 21 20:18:56 pc kernel: [   65.315792] NVRM: GPU 0000:01:00.0: GPU has fallen
   - Grab "NVIDIA Corporation Device 1f95 (rev a1)", which is part of the output of `lspci -k`. Now try these things by order! (we're close!):
     - https://askubuntu.com/a/1423504
     - https://forums.developer.nvidia.com/t/geforce-gtx-1650-ti-and-linux-mint-19-3/124667/20
+
+- Encountered the first recurrance of this issue
+
+```
+$ nvidia-smi
+Unable to determine the device handle for GPU 0000:01:00.0: Unknown Error
+```
+
+after everything runs smoothly by booting with kernel `5.14.0-1059-oem` selected
+
+  - This guy has same condition: https://forums.developer.nvidia.com/t/unable-to-determine-the-device-handle-for-gpu-xxxxxxxx-unknown-error/230277/5
