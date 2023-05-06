@@ -23,8 +23,8 @@ Symptoms:
 
   - Running `nvidia-bug-report.sh` results in the file `nvidia-bug-report.log` that says the same thing his unpleasant comment
 
-  > _Mar 21 20:18:56 pc kernel: [   65.315783] NVRM: Xid (PCI:0000:01:00): 79, pid='<unknown>', name=<unknown>, GPU has fallen off the bus.
-Mar 21 20:18:56 pc kernel: [   65.315792] NVRM: GPU 0000:01:00.0: GPU has fallen off the bus._
+    - > _Mar 21 20:18:56 pc kernel: [   65.315783] NVRM: Xid (PCI:0000:01:00): 79, pid='<unknown>', name=<unknown>, GPU has fallen off the bus.
+  Mar 21 20:18:56 pc kernel: [   65.315792] NVRM: GPU 0000:01:00.0: GPU has fallen off the bus._
 
   - Grabbing this clue, [staff armrit](https://forums.developer.nvidia.com/t/gpu-has-fallen-off-the-bus/217357/4) supposed it is due to BIOS, power supply, or thermal issue
     - Checking for these 3 things needed!
